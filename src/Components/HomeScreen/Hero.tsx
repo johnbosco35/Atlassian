@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <Container>
       <h1>
-        It’s possible <br />
+        It’s possible <br />J
         <span>with teamwork</span>
       </h1>
       <Left>
@@ -28,6 +28,7 @@ const Container = styled.div`
   background-repeat: no-repeat;
   background-size: contain;
   display: flex;
+
   /* align-items: center; */
   justify-content: space-between;
 
@@ -61,6 +62,7 @@ const Container = styled.div`
   }
 `;
 const Left = styled.div`
+  margin-top: 35px;
   img {
     height: 450px;
 

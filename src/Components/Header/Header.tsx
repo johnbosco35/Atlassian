@@ -58,11 +58,12 @@ export default Header;
 
 const Container = styled.div`
   width: 100%;
-  height: 70px;
-  /* background-color: red; */
+  height: 50.9px;
+  background-color: #b9eefa;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
 `;
 const Wrapper = styled.div`
   width: 85%;

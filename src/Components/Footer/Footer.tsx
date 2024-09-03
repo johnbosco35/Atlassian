@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import styled from "styled-components";
 import logo from "../Assets/Logo.webp";
@@ -90,7 +92,11 @@ const Up = styled.div`
 const Down = styled.div`
   display: flex;
   align-items: center;
-
+  position: fixed;
+  bottom: 0;
+  background-color: #b9eefa;
+  width: 100%;
+  justify-content: center;
   div {
     font-size: 16px;
     margin-left: 55px;
